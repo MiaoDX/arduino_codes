@@ -18,9 +18,11 @@
 #include <WiFiEspUdp.h>
 #include <PubSubClient.h>
 
-IPAddress server(192, 168, 0, 151);
-char ssid[] = "wenwubaohu";           // your network SSID (name)
-char pass[] = "while(day&9t)time++";           // your network password
+IPAddress server(192, 168, 0, 109);
+//char ssid[] = "wenwubaohu";           // your network SSID (name)
+//char pass[] = "while(day&9t)time++";           // your network password
+char ssid[] = "pi2";
+char pass[] = "wenwubaohu";
 int status = WL_IDLE_STATUS;   // the Wifi radio's status
 
 // Initialize the Ethernet client object
